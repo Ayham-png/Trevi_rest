@@ -753,6 +753,45 @@ a { color: inherit; text-decoration: none; }
   margin: 32px 0 8px;
 }
 .imprint p { color: var(--c-ink-soft); margin: 4px 0; }
+.imprint h4 {
+  font-family: var(--font-display);
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--c-magenta);
+  margin: 22px 0 6px;
+  font-weight: 600;
+}
+.imprint ul { color: var(--c-ink-soft); padding-left: 24px; margin: 8px 0 16px; }
+.imprint ul li { padding: 4px 0; }
+.imprint a { color: var(--c-magenta); text-decoration: underline; }
+
+/* vCard with QR code — used in the Versicherungsmaklerin block */
+.vcard-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 28px;
+  margin: 8px 0 16px;
+}
+.vcard-qr {
+  margin: 0;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid rgba(201, 169, 97, 0.4);
+  box-shadow: 0 8px 20px -10px rgba(0,0,0,0.25);
+  text-align: center;
+  flex-shrink: 0;
+}
+.vcard-qr img { display: block; width: 160px; height: 160px; }
+.vcard-qr figcaption {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--c-ink-soft);
+  margin-top: 8px;
+}
 
 /* ---------- Footer ---------- */
 .site-footer {
