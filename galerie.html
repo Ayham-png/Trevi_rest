@@ -9,7 +9,7 @@
 <title>Galerie — Ristorante Trevi</title>
 <meta name="description" content="Eindrücke aus dem Ristorante Trevi — unser Ambiente, unsere Gerichte, unser Team. Ziehen Sie zum Erkunden, klicken Sie zum Vergrößern." />
 <link rel="stylesheet" href="css/fonts.css?v=2" />
-<link rel="stylesheet" href="css/styles.css?v=8" />
+<link rel="stylesheet" href="css/styles.css?v=9" />
 </head>
 <body>
 <div class="page-bg"></div>
@@ -45,17 +45,35 @@
   <div class="section-inner" style="position:relative;">
     <div class="gallery-scroll" id="galleryScroll">
       <div class="gallery">
-        <!-- t1 (2x2 ~1.17 landscape): interior shot fits the wide hero slot. -->
-        <article class="gallery-item t1" data-full="Brand_assets/photos/interior.png">
-          <img src="Brand_assets/photos/interior.png" alt="Innenansicht des Ristorante Trevi mit gedeckten Tischen" loading="lazy" />
+        <!-- Gastraum (Hochformat) -->
+        <article class="gallery-item g-tall fit-top" data-full="bilder/DSC09997.jpeg">
+          <img src="bilder/DSC09997.jpeg" alt="Gemütlicher Gastraum mit gedeckten Tischen und Fenstern" loading="lazy" />
           <div class="caption">
-            <span class="caption-title">Il Nostro Ambiente</span>
-            <span class="caption-desc">Wo Gäste zu Freunden werden.</span>
+            <span class="caption-title">La Sala</span>
+            <span class="caption-desc">Wo jeder Abend besonders wird.</span>
           </div>
         </article>
 
-        <!-- t2 (square): centered round plate crops cleanly. -->
-        <article class="gallery-item t2" data-full="Brand_assets/photos/tartufo-dessert.png">
+        <!-- Team (Querformat, Hero) -->
+        <article class="gallery-item g-wide" data-full="bilder/DSC09919.jpeg">
+          <img src="bilder/DSC09919.jpeg" alt="Zwei Mitarbeiterinnen des Ristorante Trevi" loading="lazy" />
+          <div class="caption">
+            <span class="caption-title">Il Nostro Team</span>
+            <span class="caption-desc">Mit Herz und Leidenschaft.</span>
+          </div>
+        </article>
+
+        <!-- Barista (Hochformat) -->
+        <article class="gallery-item g-tall" data-full="bilder/DSC09944.jpeg">
+          <img src="bilder/DSC09944.jpeg" alt="Mitarbeiterin an der Kaffeemaschine" loading="lazy" style="object-position: 35% 62%;" />
+          <div class="caption">
+            <span class="caption-title">Il Caffè</span>
+            <span class="caption-desc">Der perfekte Abschluss.</span>
+          </div>
+        </article>
+
+        <!-- Tartufo (Essen, quadratisch) -->
+        <article class="gallery-item g-sq" data-full="Brand_assets/photos/tartufo-dessert.png">
           <img src="Brand_assets/photos/tartufo-dessert.png" alt="Tartufo Dessert mit Schokoladenglasur und Himbeere" loading="lazy" />
           <div class="caption">
             <span class="caption-title">Tartufo</span>
@@ -63,8 +81,8 @@
           </div>
         </article>
 
-        <!-- t3 (square): centered round plate crops cleanly. -->
-        <article class="gallery-item t3" data-full="Brand_assets/photos/antipasto-misto.png">
+        <!-- Antipasto (Essen, quadratisch) -->
+        <article class="gallery-item g-sq" data-full="Brand_assets/photos/antipasto-misto.png">
           <img src="Brand_assets/photos/antipasto-misto.png" alt="Antipasto Misto Teller mit Bruschetta, Salat und Parmaschinken" loading="lazy" />
           <div class="caption">
             <span class="caption-title">Antipasto Misto</span>
@@ -72,17 +90,17 @@
           </div>
         </article>
 
-        <!-- t4 (1x2 tall ~0.58): the only true portrait slot — perfect for the team photo. -->
-        <article class="gallery-item t4 fit-top" data-full="Brand_assets/photos/team-pizza.png">
-          <img src="Brand_assets/photos/team-pizza.png" alt="Mitarbeiterin präsentiert eine Pizza mit schwarzen Trüffeln" loading="lazy" />
+        <!-- Team an der Bar (Hochformat) -->
+        <article class="gallery-item g-tall fit-top" data-full="bilder/DSC09910.jpeg">
+          <img src="bilder/DSC09910.jpeg" alt="Zwei Mitarbeiterinnen an der Bar des Ristorante Trevi" loading="lazy" />
           <div class="caption">
-            <span class="caption-title">Il Nostro Team</span>
-            <span class="caption-desc">Mit Leidenschaft serviert.</span>
+            <span class="caption-title">Benvenuti</span>
+            <span class="caption-desc">Schön, dass Sie da sind.</span>
           </div>
         </article>
 
-        <!-- t5 (square): centered round plate crops cleanly. -->
-        <article class="gallery-item t5" data-full="Brand_assets/photos/pasta-arrabbiata.png">
+        <!-- Penne (Essen, quadratisch) -->
+        <article class="gallery-item g-sq" data-full="Brand_assets/photos/pasta-arrabbiata.png">
           <img src="Brand_assets/photos/pasta-arrabbiata.png" alt="Penne Arrabbiata mit Tomatensauce und Basilikum" loading="lazy" />
           <div class="caption">
             <span class="caption-title">Penne Arrabbiata</span>
@@ -90,30 +108,30 @@
           </div>
         </article>
 
-        <!-- t6 (2x2 ~1.17 landscape): pizza is 1.33 — almost a perfect fit. -->
-        <article class="gallery-item t6" data-full="Brand_assets/photos/pizza-quattro-stagioni.png">
-          <img src="Brand_assets/photos/pizza-quattro-stagioni.png" alt="Pizza Quattro Stagioni mit Schinken, Pilzen, Salami und Artischocken" loading="lazy" />
+        <!-- Ambiente (Querformat, quadratisch) -->
+        <article class="gallery-item g-sq" data-full="bilder/DSC09896.jpeg">
+          <img src="bilder/DSC09896.jpeg" alt="Gedeckter Tisch mit weißer Tischdecke vor einem Weinberg-Wandbild" loading="lazy" />
           <div class="caption">
-            <span class="caption-title">Pizza 4 Stagioni</span>
-            <span class="caption-desc">Vier Jahreszeiten auf einem Teller.</span>
+            <span class="caption-title">Atmosfera Italiana</span>
+            <span class="caption-desc">Warmes Licht, toskanisches Flair.</span>
           </div>
         </article>
 
-        <!-- t7 (2x1 wide bar, ~2.33): super-wide window-and-mirror room shot (2.14) — perfect fit. -->
-        <article class="gallery-item t7" data-full="Brand_assets/photos/interior-windows.png">
-          <img src="Brand_assets/photos/interior-windows.png" alt="Gastraum mit Vorhängen, Spiegel und gedeckten Tischen" loading="lazy" />
+        <!-- Theke (Hochformat) -->
+        <article class="gallery-item g-tall fit-top" data-full="bilder/DSC09969.jpeg">
+          <img src="bilder/DSC09969.jpeg" alt="Zwei Mitarbeiterinnen an der Theke beim Bierzapfen" loading="lazy" />
           <div class="caption">
-            <span class="caption-title">Sala da Pranzo</span>
-            <span class="caption-desc">Warmes Licht, weiße Tafeln, Stille.</span>
+            <span class="caption-title">Al Bancone</span>
+            <span class="caption-desc">Immer für Sie da.</span>
           </div>
         </article>
 
-        <!-- t8 (2x1 wide bar, ~2.33): brick-wall closer table view (1.78). -->
-        <article class="gallery-item t8" data-full="Brand_assets/photos/interior-tables.png">
-          <img src="Brand_assets/photos/interior-tables.png" alt="Detailansicht der Tische mit Steinwand und gefalteten Servietten" loading="lazy" />
+        <!-- Zapfhahn (Hochformat) -->
+        <article class="gallery-item g-tall fit-top" data-full="bilder/DSC09976.jpeg">
+          <img src="bilder/DSC09976.jpeg" alt="Mitarbeiterin zapft frisches Bier am Zapfhahn" loading="lazy" />
           <div class="caption">
-            <span class="caption-title">A Tavola</span>
-            <span class="caption-desc">Bereit für den nächsten Gast.</span>
+            <span class="caption-title">Alla Spina</span>
+            <span class="caption-desc">Frisch gezapft.</span>
           </div>
         </article>
       </div>
@@ -133,7 +151,7 @@
     <div class="footer-brand">
       Trevi
       <small>Ristorante · Pizzeria</small>
-      <p>Authentische italienische Küche, herzlich serviert in mediterranem Ambiente — willkommen bei der Familie Trevi.</p>
+      <p>Authentische italienische Küche, mit Leidenschaft zubereitet und herzlich serviert — willkommen bei der Familie Trevi, wo mediterranes Ambiente und echter Genuss aufeinandertreffen.</p>
     </div>
     <div class="footer-col">
       <h4>Navigation</h4>
